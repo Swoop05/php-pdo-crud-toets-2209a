@@ -45,3 +45,19 @@ foreach ($result as $info) {
                         </td>
                     </tr>";
 }
+
+?>
+<h3>De vijf duurste auto's ter wereld</h3>
+
+<table border='1'>
+    <thead>
+        <th>Merk</th>
+        <th>Model</th>
+        <th>Topsnelheid</th>
+        <th>Prijs</th>
+        <th>Delete</th>
+    </thead>
+    <tbody>
+        <?php echo $tableRows; ?>
+    </tbody>
+</table>
